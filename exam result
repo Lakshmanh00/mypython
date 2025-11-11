@@ -1,0 +1,10 @@
+#exam result
+mark=int(input("enter your mark"))
+if mark>=35:
+  print("excellent")
+elif mark>=20:
+  print("good")
+elif mark==15:
+  print("just pass")
+else:
+  print("fail")
